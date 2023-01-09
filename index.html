@@ -11,10 +11,9 @@
  </head>
  <body>
      <header>
-     <h1 class="page-header">Site Name</h1>
+     <h1 class="page-header">Form Template</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="*">Link</a>
             <a href="*">Link</a>
             <a href="*">Link</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
@@ -22,9 +21,25 @@
      </header>
      
    <main class="wrapper">   
-       <h2 class="subheader">Project Name</h2>
+       <h2 class="subheader">Place form code below</h2>
        
-     <p> Clever content goes here</p>
+     <form action="" method="get" class="main-form">
+      <div>
+      <label for="FirstName">First Name</label><br>
+      <input type="text" name="FirstName" id="FirstName" placeholder="First Name" required autofocus>
+      </div>
+      <div>
+        <label for="LastName">Last Name</label><br>
+        <input type="text" name="LastName" id="LastName" placeholder="Last Name" required>
+        </div>
+        <div>
+          <label for="Email">Email</label><br>
+          <input type="email" name="Email" id="Email" placeholder="Email" required>
+          </div>
+      <div>
+        <input type="submit" value="Submit It!"
+      </div>
+     </form>
 
 
      <footer>
